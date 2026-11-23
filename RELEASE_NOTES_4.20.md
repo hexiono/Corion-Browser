@@ -5,7 +5,7 @@
 Corion 4.20 is a small update to the early Windows x64 release, shipped while Corion 5.0 (the Rust Engine) is built.
 
 - Corion remembers fullscreen: if you left it in fullscreen (F11), it opens that way next time. Private windows never change or use this.
-- A warmer start page: one Shield chip shows Shield's mode and how many requests it blocked this session, and opens Settings.
+- New start page: one Shield chip shows Shield's mode and how many requests it blocked this session, and opens Settings.
 - Study shows research and library shortcuts under the search box; Customize opens the homepage panel directly.
 - The early-build notice can be dismissed and stays dismissed on new tabs.
 - Corion's own pages now use at least 12px text.
@@ -19,8 +19,8 @@ The installer is unsigned and Windows may display a reputation warning. Confirm 
 
 ## Verification and limits
 
-The automated test suites were run for this release, and the installer passed isolated install, upgrade, cancellation and uninstall checks with a sandboxed registration, plus the installer transaction safety checks. These checks do not establish compatibility with every Windows machine or website.
+All automated test suites passed for this release, and the installer passed its transaction safety checks (cancel, locked files, bad paths). The full sandboxed install, upgrade and uninstall run was not done for 4.20. None of this proves Corion works on every Windows PC or website.
 
 The Chrome Web Store link can stay dark for several seconds while the old store address redirects. DRM (for example full Spotify playback) and extension compatibility remain limited. No universal speed or memory reduction percentage is claimed.
 
-This is an early release. Privacy and rights information describes actual behavior; it does not guarantee anonymity, universal blocking or worldwide legal compliance. The public repository contains the website, documentation and release assets; browser source remains private. Older release assets remain available.
+This is an early release. Privacy and rights information describes actual behavior; it does not guarantee anonymity, universal blocking or worldwide legal compliance. The public repository contains the website, documentation and release assets; browser source remains private. Corion 4.10 and 4.0 are retired.
