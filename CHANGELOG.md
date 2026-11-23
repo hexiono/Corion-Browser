@@ -2,6 +2,15 @@
 
 This public changelog summarizes delivered product milestones. It is not a claim that every website or workflow has been verified. The browser remains in early development.
 
+## 4.20 — Bug Sweep 2.0
+
+- Remembers fullscreen (F11) between launches; private windows never use it.
+- Warmer start page: one Shield chip with the session's blocked-request count, Study and Customize buttons.
+- The early-build notice can be dismissed for good; Corion's own pages use at least 12px text.
+- Taskbar Jump List and extensions manager checked live and working.
+
+See [4.20 release notes](RELEASE_NOTES_4.20.md) for verification and limitations.
+
 ## 4.10 — Bug Sweep
 
 - Fixes Reader Mode, Save article and Translate closing the browser when a slow page times out or has no script context yet.
